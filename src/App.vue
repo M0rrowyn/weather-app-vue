@@ -1,5 +1,9 @@
-<script setup></script>
+<script setup>
+import WeatherCard from './components/WeatherCard.vue';
+</script>
 
 <template>
-  <h1>Weather App</h1>
+  <div class="page" >
+    <WeatherCard />
+  </div>
 </template>
